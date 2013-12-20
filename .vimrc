@@ -4,7 +4,7 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-" Vundles!
+" Vundles
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
@@ -17,8 +17,7 @@ Bundle 'marijnh/tern_for_vim'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'SirVer/ultisnips'
 
-filetype plugin on     " required!
-filetype indent on     " required!
+filetype plugin indent on
 
 " Searching
 set hlsearch
