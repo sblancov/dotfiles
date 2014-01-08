@@ -9,7 +9,7 @@ Dotfiles
 
 testem.json:
 ------------
-* It works with jasmine unit test framwork.
+* It works with jasmine unit test framework.
 * It is configured to launch just Chrome.
 * It takes all src and test files from their respective directories.
 
