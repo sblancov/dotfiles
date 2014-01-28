@@ -13,7 +13,7 @@
     "forin":            true,   // It forces to use filter for each object's item in 'for in' loops.
     "freeze":           true,   // It prohibits overwriting prototypes of native objects such as Array or Date.
     "immed":            true,   // It prohibits the use of inmediate function invocations without wrapping them in parentheses.
-    "indent":           true,   // It enforces specific tab width for your code.
+    "indent":           4,      // It enforces specific tab width for your code.
     "latedef":          true,   // It prohibits the use of a variable before it was defined.
     "newcap":           true,   // It requires you to capitalize names of constructor functions.
     "noarg":            true,   // It prohibits the use of arguments.caller and arguments.callee.
