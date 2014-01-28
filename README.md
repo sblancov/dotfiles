@@ -13,4 +13,10 @@ testem.json:
 * It is configured to launch just Chrome.
 * It takes all src and test files from their respective directories.
 
+.jshintrc:
+----------
+* It works with vim if you know how.
+* All options from http://www.jshint.com/docs/options/ can be configured.
+* You can add globals to customize it even more.
+
 Any commentary, question or doubt will be appreciated :)
