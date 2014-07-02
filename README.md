@@ -1,6 +1,18 @@
 Dotfiles
 ========
 
+.gitconfig:
+-----------
+* It contains a basic git configuration.
+* It is needed to add [core] and inside: name and email.
+* It contains a beautyfull alias for git log (At least, I think so).
+
+.jshintrc:
+----------
+* It works with vim if you know how.
+* All options from http://www.jshint.com/docs/options/ can be configured.
+* You can add globals to customize it even more.
+
 .vimrc:
 -------
 * Several plugins can be installed with Vundle plugin (you should install vundle plugin at first).
@@ -12,11 +24,5 @@ testem.json:
 * It works with jasmine unit test framework.
 * It is configured to launch just Chrome.
 * It takes all src and test files from their respective directories.
-
-.jshintrc:
-----------
-* It works with vim if you know how.
-* All options from http://www.jshint.com/docs/options/ can be configured.
-* You can add globals to customize it even more.
 
 Any commentary, question or doubt will be appreciated :)
