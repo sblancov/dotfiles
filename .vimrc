@@ -52,3 +52,7 @@ let g:ycm_key_list_previous_completion = ['<C-S-TAB>', '<Up>']
 
 let g:tern_map_keys=1
 let g:tern_show_argument_hints='on_hold'
+
+" Remap some hateful typos:
+command W w
+command Wq wq
