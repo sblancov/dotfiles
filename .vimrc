@@ -18,6 +18,7 @@ Bundle 'marijnh/tern_for_vim'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'SirVer/ultisnips'
 Bundle 'bling/vim-airline'
+Bundle 'tpope/vim-fugitive'
 
 filetype plugin indent on
 
