@@ -17,6 +17,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'marijnh/tern_for_vim'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'SirVer/ultisnips'
+Bundle 'bling/vim-airline'
 
 filetype plugin indent on
 
@@ -53,6 +54,8 @@ let g:ycm_key_list_previous_completion = ['<C-S-TAB>', '<Up>']
 
 let g:tern_map_keys=1
 let g:tern_show_argument_hints='on_hold'
+
+set laststatus=2
 
 " Remap some hateful typos:
 command W w
