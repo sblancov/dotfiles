@@ -19,6 +19,15 @@ Dotfiles
 * It contains configuration about searching, indent and color theme as well as mapping to create a great enviroment to start programming.
 * You should read install instructions for every plugin :P
 
+Gruntfile.js
+------------
+* It provides tasks that help to do TDD/BDD in Javascript.
+* It also provides tasks to get information about the project. Information such as maintainability metrics, coverage repors or API documentation among others.
+
+package.json
+------------
+* It corresponds to the Gruntfile.js and contents all dependencies are needed to run grunt properly.
+
 testem.json:
 ------------
 * It works with jasmine unit test framework.
