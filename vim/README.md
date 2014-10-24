@@ -6,6 +6,10 @@ Flake8
 It needs flake8 in order to use it.
 > pip install flake8
 
+Syntastic
+---------
+This plugin is needed to use jsHint easily. It is necesary to install jsHint.
+> npm install -g jshint
 
 Tagbar
 ------
