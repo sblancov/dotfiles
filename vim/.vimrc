@@ -62,6 +62,8 @@ let g:tern_show_argument_hints='on_hold'
 
 set laststatus=2
 
+let mapleader = ","
+
 " Remap some hateful typos:
 command W w
 command Wq wq
