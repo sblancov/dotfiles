@@ -1,6 +1,12 @@
 Help for VIM
 ============
 
+Flake8
+------
+It needs flake8 in order to use it.
+> pip install flake8
+
+
 Tagbar
 ------
 It needs ctags so:
