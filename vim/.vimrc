@@ -49,6 +49,7 @@ set t_Co=256
 set bg=dark
 colorscheme distinguished
 set number
+set cc=80
 
 " Mapping
 nmap <F8> :TagbarToggle<CR>
