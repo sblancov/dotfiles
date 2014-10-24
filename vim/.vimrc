@@ -21,6 +21,7 @@ Bundle 'bling/vim-airline'
 Bundle 'tpope/vim-fugitive'
 Bundle 'wincent/command-t'
 Bundle 'editorconfig/editorconfig-vim'
+Bundle 'nvie/vim-flake8'
 
 filetype plugin indent on
 
@@ -52,6 +53,7 @@ set number
 " Mapping
 nmap <F8> :TagbarToggle<CR>
 nmap <F7> :NERDTreeToggle<CR>
+nmap <F6> :call Flake8()<CR>
 
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
