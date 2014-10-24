@@ -36,6 +36,10 @@ set autoindent
 set smartindent
 set cindent
 
+" Folding
+set foldmethod=indent
+set foldlevel=99
+
 " Others
 syntax on
 set t_Co=256
