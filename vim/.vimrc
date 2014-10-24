@@ -20,6 +20,7 @@ Bundle 'SirVer/ultisnips'
 Bundle 'bling/vim-airline'
 Bundle 'tpope/vim-fugitive'
 Bundle 'wincent/command-t'
+Bundle 'editorconfig/editorconfig-vim'
 
 filetype plugin indent on
 
