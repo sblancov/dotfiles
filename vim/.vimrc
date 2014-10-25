@@ -49,7 +49,10 @@ set t_Co=256
 set bg=dark
 colorscheme distinguished
 set number
-set cc=80
+
+" Color lines which has more than 80 characters
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%80v', 100)
 
 " Mapping
 nmap <F8> :TagbarToggle<CR>
