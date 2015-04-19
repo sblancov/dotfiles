@@ -18,6 +18,9 @@ It needs ctags so:
 
 YouCompleteMe
 -------------
+Before to install YouCompleteMe we need to install python2.7-dev and cmake:
+    > aptitude install python2.7-dev cmake
+
 1.  Check if your vim version is at least 7.3.584, how?
     > vim
 
