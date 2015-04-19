@@ -16,6 +16,12 @@ Tagbar
 It needs ctags so:
 > aptitude install exuberant-ctags
 
+UltiSnip
+--------
+In order to be able to use this plugin it is necessary to install vim-nox to
+support python in vim:
+    > aptitude install vim-nox
+
 YouCompleteMe
 -------------
 Before to install YouCompleteMe we need to install python2.7-dev and cmake:
