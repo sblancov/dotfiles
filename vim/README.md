@@ -8,7 +8,7 @@ It needs flake8 in order to use it.
 
 Syntastic
 ---------
-This plugin is needed to use jsHint easily. It is necesary to install jsHint.
+This plugin is needed to use jsHint easily. It is necessary to install jsHint.
 > npm install -g jshint
 
 Tagbar
