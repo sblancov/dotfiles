@@ -53,3 +53,4 @@ Before to install YouCompleteMe it is necessary to install python2.7-dev and cma
 that is all :)
 
 NOTE: Linux debian 3.14-2-amd64 #1 SMP Debian 3.14.15-2 (2014-08-09) x86_64 GNU/Linux
+> uname -a
