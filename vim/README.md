@@ -1,6 +1,12 @@
 Help for VIM
 ============
 
+Vundle
+------
+This plugin allow to install and update the other plugins. It is needed to
+install from git.
+> git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 Flake8
 ------
 It needs flake8 in order to use it.
