@@ -10,11 +10,13 @@ install from git.
 Flake8
 ------
 It needs flake8 in order to use it.
+> aptitude install python-pip
 > pip install flake8
 
 Syntastic
 ---------
 This plugin is needed to use jsHint easily. It is necessary to install jsHint.
+> aptitude install nodejs
 > npm install -g jshint
 
 Tagbar
