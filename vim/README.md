@@ -18,6 +18,12 @@ Tagbar
 It needs ctags so:
 > aptitude install exuberant-ctags
 
+Tern
+----
+It needs node and npm.
+> cd ~/.vim/bundle/tern_for_vim/
+> npm install
+
 UltiSnip
 --------
 In order to be able to use this plugin it is necessary to install vim-nox to
