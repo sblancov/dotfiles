@@ -26,7 +26,7 @@ UltiSnip
 --------
 In order to be able to use this plugin it is necessary to install vim-nox to
 support python in vim:
-    > aptitude install vim-nox
+> aptitude install vim-nox
 
 YouCompleteMe
 -------------
