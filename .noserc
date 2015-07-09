@@ -1,0 +1,4 @@
+[nosetest]
+verbosity=3
+rednose=1
+with-coverage=1
