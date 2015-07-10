@@ -1,6 +1,16 @@
 Help for VIM
 ============
 
+Command-T
+---------
+Ruby is needed to use it.
+> aptitude install ruby ruby-dev
+
+and compile some libraries.
+> cd ~/.vim/bundle/command-t/ruby/command-t
+> ruby extconf.rb
+> make
+
 Flake8
 ------
 It needs flake8 in order to use it.
