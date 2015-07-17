@@ -22,6 +22,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'wincent/command-t'
 Bundle 'editorconfig/editorconfig-vim'
 Bundle 'nvie/vim-flake8'
+Bundle 'honza/vim-snippets'
 
 filetype plugin indent on
 
@@ -65,13 +66,25 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:ycm_key_list_select_completion = ['<C-TAB>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-S-TAB>', '<Up>']
 
+
 let g:tern_map_keys=1
 let g:tern_show_argument_hints='on_hold'
 
 set laststatus=2
+set backspace=2
 
 let mapleader = ","
 
 " Remap some hateful typos:
 command W w
 command Wq wq
+
+set foldmethod=indent
+set nofoldenable
+
+" Use flake8 instead of pep8
+let g:syntastic_python_checkers=['flake8']
+
+" Autoclose documentation of YouCompleteMe when an option is selected
+autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif
