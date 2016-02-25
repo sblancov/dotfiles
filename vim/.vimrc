@@ -88,3 +88,6 @@ let g:syntastic_python_checkers=['flake8']
 " Autoclose documentation of YouCompleteMe when an option is selected
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+
+" Next and previous line with arrows
+set whichwrap+=<,>,[,]
