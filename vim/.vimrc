@@ -91,3 +91,12 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
 " Next and previous line with arrows
 set whichwrap+=<,>,[,]
+
+" Tab remaps
+nnoremap tn  :tabnew<CR>
+nnoremap th  :tabfirst<CR>
+nnoremap tj  :tabprev<CR>
+nnoremap tk  :tabnext<CR>
+nnoremap tl  :tablast<CR>
+nnoremap tc  :tabclose<CR>
+nnoremap to  :tabonly<CR>
